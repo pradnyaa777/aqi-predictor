@@ -85,17 +85,6 @@ Below is a comparison of Actual vs Predicted AQI:
 
 -----
 
-## Project Structure
-aqi-predictor/
-├── data/
-│   └── air_quality.csv
-├── main.py
-├── graph.png
-└── README.md
-
-
------
-
 ## Acknowledgements
 
 This project was built as part of a learning exercise by replicating existing machine learning approaches for AQI prediction.
