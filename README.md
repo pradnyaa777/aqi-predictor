@@ -87,10 +87,11 @@ Below is a comparison of Actual vs Predicted AQI:
 
 ## Project Structure
 aqi-predictor/
-│── data/
-│── main.py
-│── README.md
-│── graph.png
+├── data/
+│   └── air_quality.csv
+├── main.py
+├── graph.png
+└── README.md
 
 
 -----
