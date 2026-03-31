@@ -56,7 +56,7 @@ The dataset contains:
 
 - Mean Absolute Error (MAE): **16.28**
 
-👉 On average, the model predicts AQI within ~16 units of the actual value.
+On average, the model predicts AQI within ~16 units of the actual value.
 
 -----
 
