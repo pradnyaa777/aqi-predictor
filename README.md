@@ -1,5 +1,21 @@
 # AQI Prediction using Machine Learning
 
+## Article
+
+I’ve written a detailed breakdown of this project, including the problem, approach, and insights:
+
+[https://medium.com/YOUR-ARTICLE-LINK](https://medium.com/@pradnyaa.j/can-ai-predict-air-pollution-before-it-becomes-dangerous-i-built-a-model-to-find-out-e52b6aaafe68) 
+
+In the article, I cover:
+- The motivation behind predicting air pollution  
+- How the model was built step-by-step  
+- Key insights from the data  
+- Visualizations and results
+
+Feel free to check it out :)
+
+-----
+
 ## Overview
 This project uses Machine Learning to predict the Air Quality Index (AQI) based on air pollution data.
 
@@ -65,6 +81,19 @@ On average, the model predicts AQI within ~16 units of the actual value.
 - PM2.5 has the highest impact on AQI (~83%)  
 - PM10 contributes moderately  
 - NO2 and CO have smaller effects  
+
+-----
+
+## Feature Importance
+
+The model also helps identify which pollutants have the greatest impact on AQI.
+
+![Feature Importance](feature_importance.png)
+
+- PM2.5 dominates (~83%) the predictions, contributing the most to AQI levels, followed by PM10.  
+- NO2 and CO have comparatively smaller effects.
+
+This aligns with real-world research, where PM2.5 is known to be one of the most harmful pollutants affecting human health.
 
 -----
 
