@@ -4,7 +4,7 @@
 
 I’ve written a detailed breakdown of this project, including the problem, approach, and insights:
 
-[https://medium.com/YOUR-ARTICLE-LINK](https://medium.com/@pradnyaa.j/can-ai-predict-air-pollution-before-it-becomes-dangerous-i-built-a-model-to-find-out-e52b6aaafe68) 
+[Medium Article Link](https://medium.com/@pradnyaa.j/can-ai-predict-air-pollution-before-it-becomes-dangerous-i-built-a-model-to-find-out-e52b6aaafe68) 
 
 In the article, I cover:
 - The motivation behind predicting air pollution  
