@@ -50,6 +50,19 @@ importances = model.feature_importances_
 for i, col in enumerate(X.columns):
     print(col, importances[i])
     
+# plot Feature Importance (Bar Graph)
+features = X.columns
+
+plt.figure(figsize=(8,5))
+plt.bar(features, importances)
+
+plt.title("Feature Importance (Impact on AQI)")
+plt.xlabel("Pollutants")
+plt.ylabel("Importance")
+
+# save image for GitHub
+plt.savefig("feature_importance.png")
+plt.show()
 
 # step-7: make predictions
 y_pred = model.predict(X_test)
